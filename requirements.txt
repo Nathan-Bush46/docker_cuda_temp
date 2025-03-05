@@ -1,0 +1,9 @@
+# For Transformers, you need to install tf-keras first.  
+# Uncomment the lines if needed.  
+
+# tf-keras  # Required since Transformers does not yet work with Keras 3  
+# transformers  
+
+black  
+black[jupyter]  
+nbconvert  

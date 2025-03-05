@@ -1,0 +1,8 @@
+# Install dependencies
+install:
+	pip install -r requirements.txt
+
+# Format and convert a Jupyter Notebook to HTML
+html:
+	black --line-length 96 $(FILE)
+	python3 -m jupyter nbconvert --to html --template classic $(FILE)
